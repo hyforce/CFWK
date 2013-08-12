@@ -12,5 +12,5 @@ trigger HandleProductPriceChange on Merchandise__c (after update) {
         li.Unit_Price__c = li.Merchandise__r.Price__c;
         }
     }
-    update openLineItems;
+    update openLineItems; //Update Line Items test
 }
